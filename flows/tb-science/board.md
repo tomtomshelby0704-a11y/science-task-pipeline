@@ -1,6 +1,6 @@
 # TB-Science 结果看板
 
-> 由 `skills/tb-board/scripts/build_board.py` 从 `topics/`、`ledger/`、`runs/` 生成，勿手改。生成时间 2026-10-29 15:20 UTC。事实来源仍是 [台账 1](ledger/tasks.md) 与 [台账 2](ledger/reviews.md)。
+> 由 `skills/tb-board/scripts/build_board.py` 从 `topics/`、`ledger/`、`runs/` 生成，勿手改。生成时间（开源版空看板，部署后重新生成）。事实来源仍是 [台账 1](ledger/tasks.md) 与 [台账 2](ledger/reviews.md)。
 
 ## 总览
 
