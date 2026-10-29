@@ -1,0 +1,24 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local data and generated artifacts
+data/
+outputs/
+tmp/
+*.log
+
+# Runtime caches
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

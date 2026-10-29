@@ -1,0 +1,26 @@
+{
+  "model_id": "准确的模型检查点或 API 标识，如 gpt-5.6-sol",
+  "group": "strong（2026-10-29 起只跑强模型；旧弱模型运行为 weak）",
+  "tier": "强模型组填 frontier；弱模型组填 Tier 1.5 或 Tier 2",
+  "agent_framework": "codex 或 terminus-2",
+  "agent_version": "框架版本，如 0.160.0",
+  "system_prompt": "系统提示词文件在 harbor/ 下的相对路径，如 agent/initial-prompt.txt",
+  "tools": "启用的工具，或其说明文件在 harbor/ 下的相对路径",
+  "sampling": "采样配置（reasoning effort、temperature 等），或其文件路径",
+  "budget": "执行预算，如 2CPU/4GB/3600s",
+  "started_at": "ISO 8601 开始时间，带时区",
+  "duration_sec": 0,
+  "phase_seconds": {
+    "environment_setup": 0,
+    "agent_setup": 0,
+    "agent_execution": 0,
+    "verifier": 0,
+    "_source": "Harbor result.json 中对应字段名（首次填写时核对）"
+  },
+  "exit_status": "harbor 进程退出码与 trial 是否异常",
+  "harbor_command": "原样的 harbor run 命令（密钥与环境变量值已删）",
+  "task_version": 1,
+  "verifier_version": 1,
+  "valid": true,
+  "failure_class": "成功填 不适用；失败填 专业理解/证据使用/方法选择/实现/验证/工具使用/无法确定；无效填所属无效情形"
+}
